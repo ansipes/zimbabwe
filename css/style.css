@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 20px;
+}
+
+.path {
+  stroke-dasharray: 3710;
+  stroke-dashoffset: 3710;
+  transition: 1s all;
+}
+
+#step-one {
+  stroke-dashoffset: 3180;
+}
+
+#step-two {
+  stroke-dashoffset: 2650;
+}
+
+#step-three {
+  stroke-dashoffset: 2120;
+}
+
+.circle {
+  padding: 40px;
+  width: 130px;
+  height: 130px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 100%;
+  margin: 0 auto;
+}
+
+.cards {
+  display: flex;
+  overflow-x: scroll;
+  padding: 10px;
+}
+
+.card {
+  margin-right: 10px;
+  box-sizing: border-box;
+  flex: 0 0 100%;
+  margin-top: 20px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+  padding: 40px;
+  border-radius: 15px;
+}
